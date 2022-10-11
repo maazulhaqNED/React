@@ -1,0 +1,27 @@
+$darkGreenColor: #00363b;
+div.footer{
+    .row{
+        width: 100%;
+        justify-content: center;
+        .col{
+            width: 20% !important;
+            margin: 8px;
+        }
+        h6{
+            color: $darkGreenColor;
+            font-size: 12px;
+        }
+        a{
+            color: #464747;
+            font-size: 12px;
+            display: block;
+        }
+    }
+    .copyrightFooter{
+        font-size: 12px;
+        color: white;
+        background-color:  $darkGreenColor;
+        height: 50% !important;
+    }
+    
+}

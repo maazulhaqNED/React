@@ -1,0 +1,27 @@
+.adCard{
+    display: inline-block;
+    margin: 10px !important;
+    .card{
+        .imgDiv{
+            height: 150px;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+
+        }
+        .card-body{
+            height: 200px;
+        }
+        .card-title{
+            color: rgb(46, 75, 17);
+        }
+        .card-text{
+            color: rgb(89, 86, 95);
+        }
+        small{
+            color: rgb(89, 86, 95);    
+        }
+    }
+}
