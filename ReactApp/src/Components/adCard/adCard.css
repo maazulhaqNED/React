@@ -1,0 +1,32 @@
+.adCard {
+  display: inline-block;
+  margin: 10px !important;
+}
+
+.adCard .card .imgDiv {
+  height: 150px;
+}
+
+.adCard .card .imgDiv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.adCard .card .card-body {
+  height: 200px;
+}
+
+.adCard .card .card-title {
+  color: #2e4b11;
+}
+
+.adCard .card .card-text {
+  color: #59565f;
+}
+
+.adCard .card small {
+  color: #59565f;
+}
+/*# sourceMappingURL=adCard.css.map */

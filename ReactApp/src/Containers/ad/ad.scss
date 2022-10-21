@@ -1,0 +1,49 @@
+.ad{
+    margin: 5% auto;
+    display: flex !important;
+    justify-content: center !important;
+    // background-color: yellow;
+    .col{
+        // background-color: chartreuse;
+        margin: 20px 2px;
+
+        #carouselExampleControls{
+            margin: 15px auto;
+            background-color: black;
+            width: inherit;
+            height: 300px;
+            .carousel-item{
+                width: inherit;
+                height: 300px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+    
+                    }
+            }
+            
+        }
+        .descCard{
+            margin: 15px auto;
+            width: inherit;
+            box-shadow: -3px 5px 3px #888888;
+        }
+
+
+
+        .priceCard{
+            margin: 15px auto;
+            box-shadow: -3px 5px 3px #888888;
+        }
+        .sellerCard{
+            margin: 15px auto;
+            box-shadow: -3px 5px 3px #888888;
+            h6{
+                display: inline;
+                margin: 5%;
+            }
+        }
+    }
+    
+}

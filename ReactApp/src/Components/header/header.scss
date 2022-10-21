@@ -1,0 +1,58 @@
+@mixin Displayflex($justify) {
+    display: flex;
+    justify-content: $justify  !important;
+    align-items: center;
+}
+$darkGreenColor : #00363b;
+
+.navbar{
+    @include Displayflex(space-evenly);
+    .dropdown .btn{
+        width: 350px;
+        background-color: $darkGreenColor ;
+        border-color: $darkGreenColor ;
+     }
+     .searchForm{
+        width: 450px ;
+        @include Displayflex(space-between);
+        form{
+            display: inline-block;
+            width: 80% !important;
+            .form-control{
+                width: 100%;
+            }    
+        }    
+        .btn{
+            width: 16% ;
+            background-color: $darkGreenColor ;
+            border-color: $darkGreenColor ;
+        }
+    }
+    form.price{
+        width: 350px;
+        input{
+            width: 100% !important;
+        }
+        button{
+            width: 15% !important;
+            background-color: $darkGreenColor ;
+            border-color: $darkGreenColor ;
+        }
+
+    }
+    .leftBtns{
+        @include Displayflex(space-evenly);
+        width: 350px;
+        button{
+            width: 25%;
+            margin-left: 15px ;
+            background-color: $darkGreenColor ;
+            border-color: $darkGreenColor ;
+        }
+        .person img{
+            width: 80%;
+            border-radius: 50%;
+            border: 2px solid $darkGreenColor;
+        }
+    }
+}

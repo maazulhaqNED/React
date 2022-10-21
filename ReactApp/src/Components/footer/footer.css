@@ -1,0 +1,30 @@
+div.footer .row {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.footer .row .col {
+  width: 20% !important;
+  margin: 8px;
+}
+
+div.footer .row h6 {
+  color: #00363b;
+  font-size: 12px;
+}
+
+div.footer .row a {
+  color: #464747;
+  font-size: 12px;
+  display: block;
+}
+
+div.footer .copyrightFooter {
+  font-size: 12px;
+  color: white;
+  background-color: #00363b;
+  height: 50% !important;
+}
+/*# sourceMappingURL=footer.css.map */

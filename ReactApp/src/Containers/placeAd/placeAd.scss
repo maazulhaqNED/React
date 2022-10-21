@@ -1,0 +1,54 @@
+$darkGreenColor : #00363b;
+$font1 : Roboto,Arial,Helvetica,sans-serif;
+
+.placeAdNav{
+    display: flex;
+    justify-content: flex-start !important;
+    a{
+        margin: auto 4%;
+
+    }
+    h6{
+        margin: auto 35%;
+        color: $darkGreenColor;
+        font-family: $font1;
+        font-size: 20px;
+    }
+}
+.placeAdForm{
+    border: 1px solid gray;
+    padding: 5% 10%;
+    width: fit-content;
+    margin: 2% auto;
+    // text-align: center;
+    .dropdown .btn{
+        width: 350px;
+        background-color: $darkGreenColor ;
+        border-color: $darkGreenColor ;
+     }
+     hr{
+         margin: 40px auto;
+     }
+     .postAdBtn{
+        background-color: $darkGreenColor;
+        border-color: $darkGreenColor;
+        margin: 4% auto;
+     }
+}
+.alertTriangle{
+    font-family: $font1;
+    text-align: center;
+    color: rgb(153, 147, 139);
+    margin: 10% auto 10% auto;
+    height: 45vh;
+}
+
+.copyrightFooter{
+    font-size: 12px;
+    color: white;
+    background-color:  $darkGreenColor;
+    height: 50% !important;
+    .row{
+        width: 100%;
+    }
+}

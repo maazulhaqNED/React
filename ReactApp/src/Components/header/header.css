@@ -1,0 +1,86 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .dropdown .btn {
+  width: 350px;
+  background-color: #00363b;
+  border-color: #00363b;
+}
+
+.navbar .searchForm {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .searchForm form {
+  display: inline-block;
+  width: 80% !important;
+}
+
+.navbar .searchForm form .form-control {
+  width: 100%;
+}
+
+.navbar .searchForm .btn {
+  width: 16%;
+  background-color: #00363b;
+  border-color: #00363b;
+}
+
+.navbar form.price {
+  width: 350px;
+}
+
+.navbar form.price input {
+  width: 100% !important;
+}
+
+.navbar form.price button {
+  width: 15% !important;
+  background-color: #00363b;
+  border-color: #00363b;
+}
+
+.navbar .leftBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+}
+
+.navbar .leftBtns button {
+  width: 25%;
+  margin-left: 15px;
+  background-color: #00363b;
+  border-color: #00363b;
+}
+
+.navbar .leftBtns .person img {
+  width: 80%;
+  border-radius: 50%;
+  border: 2px solid #00363b;
+}
+/*# sourceMappingURL=header.css.map */

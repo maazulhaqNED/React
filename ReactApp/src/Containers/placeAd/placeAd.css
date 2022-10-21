@@ -1,0 +1,64 @@
+.placeAdNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.placeAdNav a {
+  margin: auto 4%;
+}
+
+.placeAdNav h6 {
+  margin: auto 35%;
+  color: #00363b;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.placeAdForm {
+  border: 1px solid gray;
+  padding: 5% 10%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2% auto;
+}
+
+.placeAdForm .dropdown .btn {
+  width: 350px;
+  background-color: #00363b;
+  border-color: #00363b;
+}
+
+.placeAdForm hr {
+  margin: 40px auto;
+}
+
+.placeAdForm .postAdBtn {
+  background-color: #00363b;
+  border-color: #00363b;
+  margin: 4% auto;
+}
+
+.alertTriangle {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #99938b;
+  margin: 10% auto 10% auto;
+  height: 45vh;
+}
+
+.copyrightFooter {
+  font-size: 12px;
+  color: white;
+  background-color: #00363b;
+  height: 50% !important;
+}
+
+.copyrightFooter .row {
+  width: 100%;
+}
+/*# sourceMappingURL=placeAd.css.map */
